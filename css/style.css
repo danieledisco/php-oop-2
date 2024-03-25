@@ -14,7 +14,6 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: var(--oop-1-body-bg);
 }
 
 
@@ -32,7 +31,13 @@ body {
 
 .imgContainer {
     text-align: center;
+    padding: 1rem;
 }
+
+.imgContainer img {
+    width: 150px;
+}
+
 
 .col-12 {
     width: auto;
@@ -45,7 +50,10 @@ body {
     border: 2px solid black;
     min-height: 50px;
     color: var(--oop-1-light);
+    padding: 1rem;
 }
+
+
 
 @media screen and (min-width: 568px) {
     .col-sm-6 {
@@ -76,5 +84,11 @@ header {
     background-color: var(--oop-1-header-footer-bg);
     color: var(--oop-1-light);
     padding: 2rem;
+    text-align: center;
+}
+
+i {
+    color: cornflowerblue;
+    font-size: 2rem;
     text-align: center;
 }
