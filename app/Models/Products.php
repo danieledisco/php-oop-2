@@ -3,8 +3,8 @@
 class Products
 {
     public function __construct(
-        public $description,
-        public $price
+        public string $description,
+        public string $price
     ) {
         $this->description = $description;
         $this->price = $price;
